@@ -1,0 +1,164 @@
+
+h2{ font-size: 22px; line-height: 30px;}
+h3{ font-size: 18px;}
+.wrapper{ width: 1024px; margin: 0 auto;}
+img{ width: 100%;}
+.navbar >.container{ background:rgb(122,2,22);}
+.navbar{ position: absolute; top: 0; left:20%; z-index: 10000;}
+.banner{ position:absolute;}
+.navbar{ margin-top: 30px;}
+.nav li{ font-size: 14px; margin-right: 20px;} 
+.nav li a{ color: #FFFFFF; line-height: 80px; padding: 0;}
+.banner{ position: relative;}
+.ho{position: absolute; top: 250px; left: 28%; width: 800px; color: #FFFFFF}
+.ho h1{ font-size: 60px;letter-spacing:20px;}
+.ho h2{ margin: 10px; word-spacing:20px; font-size: 36px;}
+.ho p{ font-size: 14px; margin-top: 20px;}
+.allTit h6{color: #f10100; }
+.allTit h2{ margin: 10px 0;}
+/*关于我们*/
+.aboutAs .row{ margin: 30px 0;}
+.aboutAs .col-md-7 p{ font-size: 12px; line-height: 24px;}
+.aboutAs button{ margin-top: 10px; width: 100px; height: 30px; line-height: 30px; text-align: center; background: #f10100; border: none; border-radius: 5px; color: #fff;}
+.aboutAs .slide{  margin-top: 70px;}
+/*服务项目*/
+.seriveIn .container-fluid{ padding: 0;}
+.seriveIn{ margin: 20px 0;}
+.seriveIn .col-md-2{ padding: 0;}
+.seriveIn p{ font-size: 12px;}
+.seriveHi{ position: absolute; bottom: 0; left: 0; padding: 10px ; color: #FFFFFF;}
+/*我们的团队*/
+.thumbnail p{ font-size: 12px; line-height: 20px; margin-bottom: 10px;}
+.thumbnail h3{ margin-top: 10px;}
+/*联系我们*/
+.conB{ margin-top: 40px; background: url(../images/conbac.jpg); background-size:100%;/* height: 300px;*/}
+.conB .message{ margin-top: 115px;}
+.conB .message h2{ color: #fff; line-height: 40px;}
+.conB .message form p:last-of-type{ margin-left: 0;}
+.conB .subBtn{ margin-left: 0;}
+
+
+/*最新消息*/
+
+.TitTop{ margin:50px 0 20px 0;}
+/*底部*/
+footer{ background: #1d1d29; color: #FFFFFF; padding:30px 0;}
+footer p{ line-height: 30px; font-size: 12px;}
+
+
+
+/*************************aboutas****************************/
+.about .row p{font-size: 12px;line-height: 24px;}
+.aboutP{ font-size: 14px; line-height: 24px; text-indent: 2rem;}
+.aboutCen{ background: #E7E7E7; padding: 50px 0; margin-top: 30px;}
+.aboutCen h3{ height: 50px; line-height: 50px; background:rgb(122,2,22); color: #fff;}
+.aboutCen .container .row .col-sm-4{ padding-left: 25px; padding-right: 25px;}
+.aboutCen .container .row .col-sm-4 .bor{ background: #fff;}
+.aboutCen .container .row .col-sm-4 p{ height: 140px; font-size: 12px; line-height: 28px; padding: 15px;  }
+
+/*************************serive****************************/
+.on{ background:#f10100; color: #ffffff;}
+.serive .row p{ border: 1px solid #f10100; height: 40px; line-height: 40px; border-radius: 5px;}
+.serive .row { margin-top: 20px;}
+.seriveCen{ margin: 30px 0 50px;}
+.seriveCen dl{ height: 330px; border: 1px solid #E5E5E5; padding: 10px; }
+.seriveCen .row div dl:hover{ border: 2px solid #ccc; box-shadow: 4px 4px 10px #E6ECEC;}
+.seriveCen dl dd:first-of-type{ border-bottom: 1px solid #CCCCCC; font-size: 14px; color: #444444;padding: 10px 0;}
+.seriveCen dl dd:last-of-type{ font-size: 12px; color: #444444; line-height: 24px; margin-top: 10px;}
+/***********************contact******************************/
+.contact .col-md-3{ margin-top: 15px;}
+.contact .col-md-3 p{ line-height: 30px; font-size: 14px;}
+.message{ color: #000; width:92%; margin: 20px auto 0;}
+.message .text{ font-size: 14px; }
+.message p{ margin-bottom: 20px;}
+.message form p:last-of-type{ margin-left: 8%;}
+.message p input{ padding: 0 10px; width:92%; height: 30px; line-height: 50px; color: #666666; border: 1px solid #CCCCCC;}
+.message p textarea{  padding: 0 10px; width: 92%; height: 70px; line-height:70px; color: #666666; border: 1px solid #CCCCCC;}
+.subBtn,.resBtn{float: left; margin-left:8%; background: #f10100; width: 160px; border: none; height: 35px; line-height: 35px; color: #FFFFFF; text-align: center; border-radius: 6px; }
+
+.subBtn{margin-bottom: 10px;}
+
+
+.hid{ display: none;}
+
+/*news*/
+.newsP .row{ margin-bottom: 20px;}
+.newsP{ margin:20px 0;}
+.newsP .row .col-sm-8{position: relative;top: 50%;transform: translateY(20%);} 
+.newsP .row .col-sm-8 p{ margin-top: 20px; font-size: 12px; line-height: 24px;}
+
+@media only screen and (max-width: 1400px) {
+	.navbar{ position: absolute; top: 0; left:4%; z-index: 10000;}
+	.ho{position: absolute; top: 300px; left: 20%; width: 800px; color: #FFFFFF}
+
+}
+
+@media only screen and (max-width: 767px) {
+	nav .nav li a{ line-height: 30px;}
+	.navbar{ margin-top: 0; position: fixed; top: 0; left:0; width: 100%;}
+	.navbar .container{ width: 100%;}
+	#banner{ margin-top: 30px;}
+	.bann{ margin-top: 50px;}
+	a.navbar-brand{ width: 180px;}
+	.navbar-toggle{margin: 10px;}
+	.newsP .col-md-8{ margin-top: 20px;}
+	.newsP .col-md-8 h4{ font-size: 14px;}
+	.newsP .col-md-8 p{ font-size: 12px;}
+	.serive .row{ margin-top: 0;}
+	.newsP{ margin: 0;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	nav.navbar{ position: absolute; top: 20px; left:0; z-index: 10000; width: 100%;}
+	a.navbar-brand{  width: 200px;}
+	nav .nav li a{ line-height: 62px;}
+	div.ho{
+		position: absolute;
+	    top: 200px;
+	    left: 18%;
+	    width: 660px;
+    
+	}
+	div.ho h1{ font-size: 50px;}
+	div.ho h2{ font-size: 20px;}
+	div.ho p{ font-size: 12px;}
+	.aboutCen .container .row .col-sm-4 p{ line-height: 20px; height: 160px;}
+	.newsP .row .col-sm-8{position: relative;top: 50%;transform: translateY(2%);} 
+
+
+}
+@media only screen  and (max-width: 768px) {
+	.subBtn,.resBtn{ width: 150px;}
+	.message form p:last-of-type{ margin-left:0;}
+	.contact .col-md-3{ margin:0}
+	div#map{ height: 300px;}
+}
+@media only screen  and (max-width: 376px) {
+	.subBtn,.resBtn{ width: 100px;}
+	.aboutCen .container .row .col-md-4 p{ line-height: 20px;}
+	.seriveCen .row dl{ height:120px;}
+	.seriveCen{ margin-bottom: 20px;}
+}
+@media only screen  and (max-width: 414px) {
+	.about .row p{ line-height: 24px;}
+}
+@media only screen  and (max-width: 500px) {
+	.message{ width: 98%;}
+	.message p input{ width: 98%;}
+	.message p textarea{ width: 98%;}
+	.seriveCen dl{ height:140px;}
+	.seriveCen dl dd:first-of-type{ border: none; padding: 14px 0 10px 0; font-size: 12px;}
+	.conB{ background: none;  margin-top:20px;}
+	.conB .message h2{ color: #000;}
+	.conB div.message{ margin-top: 0;}
+	.thumbnail h3{ margin-top: 10px;}
+	.aboutP{ font-size: 12px; line-height: 20px;}
+	.aboutCen{ padding: 20px 0;}
+
+}
+@media only screen  and (max-width: 900px) {
+	.conB .message{ margin-top: 50px;}
+	.conB .message p{ margin-bottom: 15px;}	
+	.conB .message p textarea{ height: 60px; line-height: 60px;}
+
+}
